@@ -5,7 +5,6 @@ import java.util.*;
 
 @Service
 public class StudentService {
-
     private Map<Integer, Student> db = new HashMap<>();
 
     public Student add(Student s) {
